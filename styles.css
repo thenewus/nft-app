@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D192C;
+}
+.container {
+    width: 350px;
+    height: 596px;
+    background-color: #15263F;
+    border-radius: 15px;
+    
+}
+.container-hover {
+    position: relative;
+}
+.container-hover:hover .overlay{
+    visibility: visible;
+    
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    background: #00FFF8;
+    opacity: .6;
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+
+.img {
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    
+}
+
+.content {
+    margin: 0 24px;
+}
+
+h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    color: white;
+    line-height: 27.72px;
+    font-weight: 600;
+    margin-top: 24px;
+    
+}
+.content p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+    margin-top: 16px;
+}
+
+.cost {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ethereum img {
+    width: 11px;
+    height: 18px;
+    
+}
+
+.ethereum-num {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color: #00FFF8;
+    font-size: 16px;
+    line-height: 20.16px;
+    padding-left: 6px;
+}
+
+.ethereum, .clock {
+    display: flex;
+    align-items: center;
+}
+
+.clock img {
+    padding-right: 7px;
+}
+
+.time-left {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.16px;
+    color: #8BACD9;
+}
+
+hr {
+    margin-top: 24px;
+    border: 1px solid #2E405A;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.ava {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer span {
+    padding-left: 16px;
+    color: #8BACD9;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    line-height: 20.16px;
+}
+.first-link {
+    text-decoration: none;
+    color: white;
+}
+.first-link:hover {
+    color: #00FFF8;
+}
+
+.link:hover {
+    color: #00FFF8;
+}
